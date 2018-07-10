@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:app: https://git.heroku.com/evening-cove-39443.git
+  provider: heroku
+  api_key:
+    secure: phaoCUXFVMQMX0zQ64LrUhrHjLvoAnfuuVAfY8qE34PRmyF2wvU9NX/huoMLyeYmGW18XmlqCuPysN1KRtRp2ZODxyXugRQQXdxRWJ+W7Rv/og1/7uUka97IDYZYo9WoddRSvQ9bQhgXycNw0Oycrvr/7TlFXePTKv79REtIsygsEOPiIpgEC+dD6VDVuIp4I+iFWz7HdhcHLJs38bCjfe+qr20UEhd7ycCY/vnki746YrQmDajdQEza1CMnVOp3CrASkPWUK2beNLATI6KkT7MQyHkUgnRbs2WoNKuIAedV7uve8nsahUNaP3bPfD1WQ+RBHjh+gE1MHhj92Pnux6z4kS6QTwZoFaHrG8Lh2Hv890NKzWhKTqKMtWv0T80N13JzJoL3IezI+D0ub/eldrGG/DLjNPuUETt2jd2gdbX3nSR45IWnunCBfFAWaPT7yPGovxQHQrNc91i10Ql8q91jMSLqdiYtHaz/T4J6Mp7oJzlNyA05lbmth7cw6KNjA+LfaITHnoNdNmSsNEksLR0QAWoLcqG/uOHdu2mp82JHoXuEI8V/QGLRmqiHd8vz5RlXjjqOXgPifSXWElpZUxFijMudSdiPhxxAl37Y9/QnPkVmaf9KF6McgOt6Ojnj94QUvQ3tCbICvuhuKN6vdKlMbsSE/RxL/DZu5BeVd2c=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: jonsantos16/node-shopping-list-integration-tests
+    branch: test-for-recipes
